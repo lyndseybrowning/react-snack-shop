@@ -1,9 +1,10 @@
 import React from 'react';
+import Container from './Container';
 
 export default React.createClass({
   render() {
     return (
-      <div> Hello, How are you? </div>
+      <Container />
     )
   }
 });
