@@ -1,6 +1,8 @@
 import React from 'react';
 import Snack from './Snack';
 import ShoppingCart from './ShoppingCart';
+import { DragDropContext } from 'react-dnd';
+import Html5Backend from 'react-dnd-html5-backend';
 
 const Container = React.createClass({
 
